@@ -86,7 +86,7 @@ h1 span {
 
 
 #container-stack {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 90px;
   justify-content: space-around;
   justify-content: center;
   align-items: flex-start;
@@ -105,6 +105,20 @@ h1 span {
   background: #2b2c2b;
   border-radius: 15px;
   text-align: center;
+}
+
+.stack span,
+.about span,
+.technology  span {
+  display: block;
+  
+}
+
+
+.stack li:hover span,
+.about li:hover span ,
+.technology  li:hover span {
+  color: #02d0dcff; 
 }
 
 .stack-text p {
@@ -219,7 +233,7 @@ h1 span {
   margin-bottom: 20px;
 }
 
-.technology -text p {
+.technology-text p {
   font-family: "archivo", sans-serif;
   font-size: 16px;
   color: #1c74bb
