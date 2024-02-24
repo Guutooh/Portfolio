@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%; /* Adicionado */
+  
+}
+
+body {
+  background-image: url(../images/svg/background.svg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Archivo", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  display: flex; /* Adicionado */
+  flex-direction: column; /* Adicionado */
+  min-height: 100vh; /* Adicionado */
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+  flex: 1; /* Adicionado */
+  display: flex; /* Adicionado */
+  flex-direction: column; /* Adicionado */
+  justify-content: center; /* Adicionado */
+}
+
+.page nav ul {
+  list-style: none;
+  display: flex;
+  gap: 55px;
+  
+}
+  
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #02d0dcff;
+}
+
+nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 55px;
+  width: 100%; /* Adicionado */
+  top: 0; /* Adicionado */
+  /* z-index: 1000; Adicionado */
+ 
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 55px;
+}
+
+h1 {
+  font-family: "archivo", sans-serif;
+  width: 600px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 347px auto;
+  
+}
+
+h1 span {
+  font-size: 24px;
+  display: block;
+}
+
+
+#container-stack {
+  scroll-margin-top: 100px;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 715px;
+  width: 650px;
+  margin: 245px auto;
+  gap: 25px;
+}
+
+.stack {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  padding-bottom: 100px;
+  background: #2b2c2b;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.stack-text p {
+  font-family: "archivo", sans-serif;
+  font-size: 16px;
+  margin-top: 30px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  color: #cfd14d
+}
+
+.stack-text p span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.stack ul {
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.stack ul div:hover span,
+.about ul div:hover span ,
+.tecnology ul div:hover span {
+  color: #02d0dcff; 
+}
+
+
+.stack ul li, 
+.about ul li,
+.tecnology ul li {
+  
+  transition: transform 0.3s ease; /* Suaviza a transformação */
+
+}
+
+.stack ul li:hover, 
+.about ul li:hover, 
+.tecnology ul li:hover{
+  transform: scale(1.30); /* Aumenta o tamanho do div em 5% */
+}
+
+
+.container-about-stack {
+  display: flex ;
+  justify-content: space-between;
+  width: 100%;
+  gap: 15px
+}
+
+
+.stack img,
+.about img,
+.tecnology img {
+  width: 55px;
+  height: 55px;
+}
+
+.about {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding: 30px;
+  background: #2b2c2b;
+  width: 260px;
+  height: auto;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.about ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-family: "archivo", sans-serif;
+  font-size: 16px;
+  color: #cfd14d
+}
+
+.about-text p span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tecnology {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  height: auto;
+  width: 330px;
+  padding: 30px;
+  background: #2b2c2b;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.tecnology ul {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.tecnology-text p {
+  font-family: "archivo", sans-serif;
+  font-size: 16px;
+  color: #cfd14d
+  
+}
+
+.tecnology p span {
+  font-size: 20px;
+  font-weight: bold;
+}
