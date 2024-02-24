@@ -133,14 +133,14 @@ h1 span {
 
 .stack ul div:hover span,
 .about ul div:hover span ,
-.tecnology ul div:hover span {
+.technology  ul div:hover span {
   color: #02d0dcff; 
 }
 
 
 .stack ul li, 
 .about ul li,
-.tecnology ul li {
+.technology  ul li {
   
   transition: transform 0.3s ease; /* Suaviza a transformação */
 
@@ -148,7 +148,7 @@ h1 span {
 
 .stack ul li:hover, 
 .about ul li:hover, 
-.tecnology ul li:hover{
+.technology  ul li:hover{
   transform: scale(1.30); /* Aumenta o tamanho do div em 5% */
 }
 
@@ -163,7 +163,7 @@ h1 span {
 
 .stack img,
 .about img,
-.tecnology img {
+.technology  img {
   width: 55px;
   height: 55px;
 }
@@ -199,7 +199,7 @@ h1 span {
   font-weight: bold;
 }
 
-.tecnology {
+.technology  {
   display: flex;
   flex-wrap: wrap;
   margin-top: 15px;
@@ -211,7 +211,7 @@ h1 span {
   text-align: center;
 }
 
-.tecnology ul {
+.technology  ul {
   flex-wrap: wrap;
   display: flex;
   gap: 15px;
@@ -219,14 +219,14 @@ h1 span {
   margin-bottom: 20px;
 }
 
-.tecnology-text p {
+.technology -text p {
   font-family: "archivo", sans-serif;
   font-size: 16px;
   color: #1c74bb
   
 }
 
-.tecnology p span {
+.technology  p span {
   font-size: 20px;
   font-weight: bold;
 }
