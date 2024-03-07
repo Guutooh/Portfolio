@@ -147,25 +147,20 @@ h1 span {
   display: flex;
 }
 
-.stack ul div:hover span,
-.about ul div:hover span ,
-.technology  ul div:hover span {
-  color: #02d0dcff; 
-}
-
-
 .stack ul li, 
 .about ul li,
 .technology  ul li {
+  /* filter: grayscale(1); */
   
   transition: transform 0.3s ease; /* Suaviza a transformação */
-
+  
 }
 
 .stack ul li:hover, 
 .about ul li:hover, 
 .technology  ul li:hover{
   transform: scale(1.30); /* Aumenta o tamanho do div em 5% */
+  filter: hue-rotate(7deg) contrast(101%) saturate(300%); /*Adicionado filtro no efeito das stacks*/
 }
 
 
@@ -182,6 +177,7 @@ h1 span {
 .technology  img {
   width: 55px;
   height: 55px;
+  
 }
 
 .about {
